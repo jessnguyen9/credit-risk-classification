@@ -8,21 +8,21 @@ By leveraging data analytics and machine learning, this project provides a predi
 ## Data Used
 The dataset contains loan records with key financial metrics, including:
 
-Loan Size – The amount borrowed by an individual.
+**Loan Size:** The amount borrowed by an individual.
 
-Interest Rate – The percentage charged for borrowing.
+**Interest Rate:** The percentage charged for borrowing.
 
-Borrower Income – The borrower's annual income.
+**Borrower Income:** The borrower's annual income.
 
-Debt-to-Income Ratio – A measure of financial health.
+**Debt-to-Income Ratio:** A measure of financial health.
 
-Number of Accounts – The number of financial accounts a borrower has.
+**Number of Accounts:** The number of financial accounts a borrower has.
 
-Derogatory Marks – Indicators of past financial delinquencies.
+**Derogatory Marks:** Indicators of past financial delinquencies.
 
-Total Debt – The borrower’s outstanding debt.
+**Total Debt:** The borrower’s outstanding debt.
 
-Loan Status – The classification of a loan as healthy (0) or high-risk (1).
+**Loan Status:** The classification of a loan as healthy (0) or high-risk (1).
 
 ## Key Findings
 ### **Initial Model Performance**
@@ -90,11 +90,11 @@ With oversampling, the model improved its ability to correctly classify high-ris
 - The final accuracy improved slightly to 99.4% with a better balance between detecting safe and risky loans.
 
 ## Business Impact
-More Accurate Risk Assessment: Lenders can better identify high-risk loans, reducing financial losses.
+**More Accurate Risk Assessment:** Lenders can better identify high-risk loans, reducing financial losses.
 
-Improved Decision-Making: Loan officers can use the insights from this model to refine approval criteria.
+**Improved Decision-Making:** Loan officers can use the insights from this model to refine approval criteria.
 
-Enhanced Fairness: By addressing data imbalance, the model ensures fairer evaluations of loan applicants.
+**Enhanced Fairness:** By addressing data imbalance, the model ensures fairer evaluations of loan applicants.
 
 ## Conclusion
 This project demonstrates how data analytics and machine learning can help financial institutions make more informed decisions regarding loan approvals. By improving risk prediction accuracy, lenders can reduce defaults and maintain a healthier loan portfolio.
