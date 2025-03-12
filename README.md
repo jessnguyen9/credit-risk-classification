@@ -44,6 +44,13 @@ This confusion matrix shows that the model correctly identified **22,399 healthy
 
 3. **Classification Report**
 
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| 0            | 1.00      | 0.99   | 1.00     | 22,515  |
+| 1            | 0.85      | 0.91   | 0.88     | 746     |
+| Accuracy     |           |        | 0.99     | 23,261  |
+| Macro avg    | 0.93      | 0.95   | 0.94     | 23,261  |
+| Weighted avg | 0.99      | 0.99   | 0.99     | 23,261  |
 
 - The first logistic regression model achieved a 99.2% accuracy rate but had some difficulty identifying high-risk loans due to an imbalance in the dataset.
 
@@ -67,6 +74,8 @@ This confusion matrix shows that the model correctly identified **22,399 healthy
 With oversampling, the model improved its ability to correctly classify high-risk loans, reducing false negatives significantly.
 
 3. **Classification Report**
+
+
 
 - To address the imbalance, the dataset was resampled using a technique called Random Oversampling, ensuring an equal number of healthy and high-risk loans.
 
