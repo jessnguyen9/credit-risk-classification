@@ -25,11 +25,11 @@ Total Debt – The borrower’s outstanding debt.
 Loan Status – The classification of a loan as healthy (0) or high-risk (1).
 
 ## Key Findings
-1. **Initial Model Performance**
+### **Initial Model Performance**
 
-**Accuracy Score:** 0.992
+1. **Accuracy Score:** 0.992
 
-**Confusion Matrix**
+2. **Confusion Matrix**
 
 [[22399 116]
 
@@ -42,18 +42,18 @@ Loan Status – The classification of a loan as healthy (0) or high-risk (1).
 
 This confusion matrix shows that the model correctly identified **22,399 healthy loans** and **676 high-risk loans**, with minimal misclassifications.
 
-**Classification Report**
+3. **Classification Report**
 
 
 - The first logistic regression model achieved a 99.2% accuracy rate but had some difficulty identifying high-risk loans due to an imbalance in the dataset.
 
 - The model misclassified some high-risk loans as safe, which could be problematic for lenders.
 
-2. **Improvement with Resampling**
+### **Improvement with Resampling**
 
-**Accuracy Score:** 0.994
+1. **Accuracy Score:** 0.994
 
-**Confusion Matrix**
+2. **Confusion Matrix**
 
 [[22382   133]
 
@@ -66,7 +66,7 @@ This confusion matrix shows that the model correctly identified **22,399 healthy
 
 With oversampling, the model improved its ability to correctly classify high-risk loans, reducing false negatives significantly.
 
-**Classification Report**
+3. **Classification Report**
 
 - To address the imbalance, the dataset was resampled using a technique called Random Oversampling, ensuring an equal number of healthy and high-risk loans.
 
