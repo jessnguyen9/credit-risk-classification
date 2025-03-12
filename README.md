@@ -26,13 +26,21 @@ Loan Status – The classification of a loan as healthy (0) or high-risk (1).
 
 ## Key Findings
 1. **Initial Model Performance**
-**Accuracy Score: 0.992**
+
+**Accuracy Score:** 0.992
 
 **Confusion Matrix**
 
 [[22399 116]
 
 [ 70 676]]
+
+- True Negatives (TN): 22,339
+- False Positives (FP): 116
+- False Negatives (FN): 70
+- True Positives (TP): 676
+
+This confusion matrix shows that the model correctly identified **22,399 healthy loans** and **676 high-risk loans**, with minimal misclassifications.
 
 **Classification Report**
 
@@ -42,6 +50,24 @@ Loan Status – The classification of a loan as healthy (0) or high-risk (1).
 - The model misclassified some high-risk loans as safe, which could be problematic for lenders.
 
 2. **Improvement with Resampling**
+
+**Accuracy Score:** 0.994
+
+**Confusion Matrix**
+
+[[22382   133]
+
+[    4   742]]
+
+- True Negatives (TN): 22,382
+- False Positives (FP): 133
+- False Negatives (FN): 4
+- True Positives (TP): 742
+
+With oversampling, the model improved its ability to correctly classify high-risk loans, reducing false negatives significantly.
+
+**Classification Report**
+
 - To address the imbalance, the dataset was resampled using a technique called Random Oversampling, ensuring an equal number of healthy and high-risk loans.
 
 - The updated model improved the detection of high-risk loans, increasing recall (ability to correctly identify high-risk loans) from 91% to 99%.
