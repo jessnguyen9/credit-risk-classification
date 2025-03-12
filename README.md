@@ -75,7 +75,13 @@ With oversampling, the model improved its ability to correctly classify high-ris
 
 3. **Classification Report**
 
-
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| 0            | 1.00      | 0.99   | 1.00     | 22,515  |
+| 1            | 0.85      | 0.99   | 0.92     | 746     |
+| Accuracy     |           |        | 0.99     | 23,261  |
+| Macro avg    | 0.92      | 0.99   | 0.96     | 23,261  |
+| Weighted avg | 0.99      | 0.99   | 0.99     | 23,261  |
 
 - To address the imbalance, the dataset was resampled using a technique called Random Oversampling, ensuring an equal number of healthy and high-risk loans.
 
