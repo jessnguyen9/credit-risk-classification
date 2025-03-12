@@ -29,8 +29,11 @@ Loan Status – The classification of a loan as healthy (0) or high-risk (1).
 **Accuracy Score: 0.992**
 
 **Confusion Matrix**
+
 [[22399 116]
+
 [ 70 676]]
+
 **Classification Report**
 
 
